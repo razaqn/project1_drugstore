@@ -1,0 +1,32 @@
+/* Custom Styles */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+section {
+    padding: 60px 0;
+}
+
+#home {
+    background-image: url('https://example.com/doctor-bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#about p, #services p {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+i {
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #343a40;
+}
+
+footer p {
+    margin: 0;
+}
