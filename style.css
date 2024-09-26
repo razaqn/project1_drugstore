@@ -3,30 +3,25 @@ body {
     font-family: 'Arial', sans-serif;
 }
 
-section {
+#about-us, #services {
     padding: 60px 0;
 }
 
-#home {
-    background-image: url('https://example.com/doctor-bg.jpg');
-    background-size: cover;
-    background-position: center;
-}
-
-#about p, #services p {
-    max-width: 700px;
+#testimonials .card, #doctors .card {
+    max-width: 300px;
     margin: 0 auto;
 }
 
-i {
-    color: #007bff;
-    margin-bottom: 15px;
+.carousel-item img {
+    max-height: 370px;
+    object-fit: cover;
 }
 
-footer {
-    background-color: #343a40;
-}
-
-footer p {
-    margin: 0;
+@media (max-width: 768px) {
+    #welcome .order-lg-1 {
+        order: 2 !important;
+    }
+    #welcome .order-lg-2 {
+        order: 1 !important;
+    }
 }
